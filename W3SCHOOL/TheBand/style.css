@@ -15,6 +15,9 @@ html{
 .m_lt_10{
     margin: 10px 0;
 }
+.m_lt_15{
+    margin: 15px 0;
+}
 .cl_black{
     color: #000;
 }
@@ -163,4 +166,135 @@ nav .menu{
 .Tour{
     background-color: #000;
     color: #fff;
+    overflow: hidden;
+    font-size: 15px;
+}
+.Tour .ticket_list{
+    background-color: #fff;
+    margin: 40px 0;
+}
+.ticket_list li{
+    border-bottom: 1px solid #ddd;
+    padding: 8px 16px;
+    color: #757575;
+    list-style: none;
+    
+}
+.ticket_list li span{
+    background-color: red;
+    padding: 2px 8px;
+    margin-left: 16px;
+    color: #fff;
+}
+.ticket_list li .quantity{
+    float: right;
+    padding: 0 8px;
+    margin-right: 16px;
+    background-color: #000;
+    border-radius: 50%;
+}
+.ticket_list li .quantity::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.Tour .Tour__ticket {
+    overflow: hidden;
+    margin: 0 -11px;
+}
+.Tour .ticket_section{
+    float: left;
+    width: calc(100%/3);
+    padding: 0 10px;
+}
+.ticket_section .ticket_img img{
+    width: 100%;
+    display: block;
+}
+.ticket_section .ticket_content{
+    background-color: #fff;
+    color: #000;
+    padding: 0 16px;
+    overflow: hidden;
+}
+.ticket_content p{
+    margin: 15px 0;
+}
+.ticket_content .ticket_time{
+    color: #757575;
+}
+.ticket_content button.ticket_buy {
+    padding: 8px 17px;
+    margin-bottom: 15px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+.ticket_content .ticket_buy:hover{
+    background-color: #ccc;
+    color: #000;
+}
+.Contact{
+    overflow: hidden;
+}
+.Contact .contact_left{
+    float: left;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.container_section::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.contact_left .contact_icon_inf{
+    margin-right: 10px;
+    font-size: 15px;
+}
+.Contact .contact_right{
+    float: right;
+    margin-top: 20px;
+
+}
+.contact_right tr,.contact_right  td{
+    min-width: 200px;
+    padding: 4px;
+    color: #757575;
+
+}
+.contact_right input{
+    width: 100%;
+    padding: 8px 16px;
+}
+.contact_right .contact_submit{
+    border: none;
+    margin-right:7px ;
+    float: right;
+    padding: 12px 20px;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+}
+.contact_right .contact_submit:hover{
+    background-color: #ccc;
+    color: #000;
+}
+.map img{
+    width: 100%;
+    filter: grayscale(50%);
+}
+footer{
+    font-size: 24px;
+    text-align: center;
+    padding: 2px 0 64px;
+    opacity: 0.6;
+    color: #000;
+}
+footer i{
+    margin: 0 2px;
+}
+footer p{
+    font-size: 15px;
+    margin-top: 15px;
 }

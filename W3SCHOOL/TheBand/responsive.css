@@ -10,6 +10,9 @@
     }
 }
 @media(max-width:739px){
+    header{
+        overflow: hidden;
+    }
     nav {
         max-width: 100%;
         float: none;
@@ -17,9 +20,6 @@
     }
     nav .menu{
         display: block;
-    }
-    .menu > li:hover .submenu {
-        display: none;
     }
     .search{
         display: none;

@@ -26,6 +26,6 @@ menu_phone.onclick = function(){
     let height = header.clientHeight;
     if(height === 46) header.classList.add('header_phone');
     else header.classList.remove('header_phone');
-    li_last.innerHTML = "Merch"
-    li_last.setAttribute('href','')
+    // li_last.innerHTML = "Merch"
+    // li_last.setAttribute('href','')
 }

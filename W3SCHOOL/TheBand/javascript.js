@@ -23,9 +23,15 @@ var header =document.querySelector('header');
 var li_last = document.querySelector('nav .menu > li:last-child > a')
 console.log(li_last);
 menu_phone.onclick = function(){
-    let height = header.clientHeight;
-    if(height === 46) header.classList.add('header_phone');
-    else header.classList.remove('header_phone');
-    // li_last.innerHTML = "Merch"
-    // li_last.setAttribute('href','')
+    var height = header.clientHeight;
+    if(height === 46){
+        header.classList.add('header_phone');
+        li_last.innerHTML = "Merch"
+        li_last.setAttribute('href','')
+    } 
+    else{
+        li_last.innerHTML = `More <i class="fa fa-caret-down"></i>`
+        header.classList.remove('header_phone');
+    } 
+    
 }

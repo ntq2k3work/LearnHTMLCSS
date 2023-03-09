@@ -19,7 +19,7 @@
                 <li><a href="">Tour</a></li>
                 <li><a href="">Contact</a></li>
                 <li>
-                    <a href="" title="More">More <i class="fa fa-caret-down"></i></a>
+                    <a href="#" title="More">More <i class="fa fa-caret-down"></i></a>
                     <ul class="submenu">
                         <li><a href="">Merchandise</a></li>
                         <li><a href="">Extras</a></li>
@@ -28,6 +28,9 @@
                 </li>
             </ul>
         </nav>
+        <div class="menu_icon_phone">
+            <i class="fa-solid fa-bars"></i>
+        </div>
         <div class="search">
             <i class="fa-sharp fa-solid fa-magnifying-glass search_icon"></i>
         </div>
@@ -178,6 +181,31 @@
         <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-solid fa-bat"></i><i class="fa-brands fa-twitter"></i><i class="fa-sharp fa-solid fa-heart"></i><i class="fa-brands fa-gitlab"></i>
         <p>Powered by <a class="cl_black" href="https://www.facebook.com/Ai.em.oke/" target="_blank" >w3.css</a></p>
     </footer>
+    <!-- MODAL TICKEt -->
+    <div class="modal">
+        <div class="modal_container">
+            <div class="modal_ticket">
+                <div class="modal_ticket_header">
+                    <i class="fa-solid fa-suitcase"></i> Tickets
+                </div>
+                <p class="modal_close"><i class="fa-solid fa-xmark"></i></p>
+            </div>
+            <form action="" class="modal_ticket_content">
+                <div class="modal_ticket_content_section">
+                    <label for="modal_ticket_cost"> <i class="fa-solid fa-cart-shopping"></i>Tickets, $15 per person</label>
+                    <input type="text" class="modal_input" id="modal_ticket_cost" placeholder="How money?">
+                </div>
+                <div class="modal_ticket_content_section">
+                    <label for="modal_ticket_mail"><i class="fa-solid fa-user"></i> Send To</label>
+                    <input type="text" class="modal_input" id="modal_ticket_mail" placeholder = "Enter email">
+                </div>
+                <button class="modal_check">Pay <i class="fa-solid fa-check"></i></button>
+            </form>
+            <div class="modal_help">
+                Need <a href="#">help?</a>
+            </div>
+        </div>
+    </div>
     <script src="./javascript.js"></script>
 </body>
 </html>
